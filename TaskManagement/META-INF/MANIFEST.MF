@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: spring
+Bundle-SymbolicName: TaskManagement
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: spring.jar,
+ lib/jsp-api.jar,
+ m1022796/Downloads/servlet-api-2.5.jar,
+ m1022796/Downloads/javax.servlet-api-3.0.1.jar
+Export-Package: com.hibernate.controller,
+ com.hibernate.dao,
+ com.hibernate.form,
+ com.hibernate.message,
+ com.hibernate.models,
+ com.hibernate.service
